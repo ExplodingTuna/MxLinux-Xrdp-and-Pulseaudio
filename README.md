@@ -71,4 +71,3 @@ make
 ## Completion
 
 After following these steps, XRDP should be installed and configured on your MX Linux system, with PulseAudio integrated for sound support over remote sessions.
-```
