@@ -16,13 +16,15 @@ sudo nano /etc/X11/Xwrapper.config
 
 Change the line from `console` to `anybody`. Save and exit the editor.
 
-### 3. Disable UFW Firewall
+### 3. Configure UFW Firewall
 
-**Note**: Disabling the firewall has security implications.
+Allow traffic from a specific IP address to the XRDP port:
 
 ```bash
-sudo ufw disable
+sudo ufw allow from <ipaddress>/24 to any port 3389
 ```
+
+Replace <ipaddress> with the actual IP address or range you want to allow.
 
 ### 4. Restart XRDP Service
 
