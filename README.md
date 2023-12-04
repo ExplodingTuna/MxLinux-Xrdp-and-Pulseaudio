@@ -1,16 +1,3 @@
-```markdown
-# Installing XRDP and PulseAudio on MX Linux
-
-This guide outlines the steps to install XRDP for remote desktop access and integrate PulseAudio for sound support on MX Linux.
-
-## Prerequisites
-
-- MX Linux system
-- Terminal access
-- Internet connection
-
-## Installation Steps
-
 ### 1. Install XRDP and Dependencies
 
 Open a terminal and execute:
